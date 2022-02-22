@@ -14,11 +14,11 @@ html {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid crimson;
+    /* outline: 2px solid crimson; */
 }
 
 .page-header {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 
@@ -52,6 +52,12 @@ h6
 p {
 padding: 0px;
 margin: 0px;  
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Логотип */
@@ -91,11 +97,12 @@ margin: 0px;
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
-}
-    .nav-list .nav-link {
+ }
+ 
+    .nav-list .nav-link { 
         /* margin-right: 50px; */
-    background-color: tomato;
-    }
+    /* background-color: tomato; */
+    } 
     
     .nav-list .item:not(:last-child) {
         margin-right: 50px;
@@ -138,7 +145,10 @@ color: var(--accent-color);
 .main-header {
     display: flex;
     align-items: center;
-    margin-bottom: 200px;
+  
+}
+.page-portfolio {
+    padding-bottom: 94px;
 }
 .contact-footer {
     color: var(--additional-color);
@@ -171,6 +181,11 @@ color: var(--accent-color);
 }
 .hero {
     background-color: var(--background-color-basic);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+   
+    text-align: center;
   
    
 }
@@ -181,11 +196,12 @@ color: var(--accent-color);
     text-transform: uppercase;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 696px;
 
-
-    margin-top: 0px;
     margin-bottom: 30px;
-    text-align: center;
+    
 }
 .hero-button {
     font-family: inherit;
@@ -202,6 +218,7 @@ color: var(--accent-color);
     text-align: center;
     margin-bottom: 200px;
     border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -221,6 +238,10 @@ background-color: var(--background-main-btn);
 }
 .features .item {
     width:calc((100% - 90px) / 4);
+    margin-right: 30px;
+}
+.features .item:last-child {
+margin-right: 0px;
 }
 .description {
     color: var(--secondary-color);
@@ -244,8 +265,8 @@ background-color: var(--background-main-btn);
    
 .section {
     padding-top: 94px;
-    padding-bottom: 94px;
-    background-color: tomato;
+  padding-bottom: 94px;
+   
 }
 .caption.centered {
     text-align: center;
@@ -286,6 +307,9 @@ background-color: var(--background-main-btn);
 .team-list .item {
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
 }
 
 .team-list .item:last-child {
@@ -297,13 +321,23 @@ background-color: var(--background-main-btn);
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+
+.team {
+    background: var(--background-color-menu);
+}
+
 .project {
+
     font-weight: 700;
     font-size: 18px;
     font-weight: bold;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 
+}
+.item-foto {
+    margin-bottom: 20px;
 }
 
 .example {
@@ -314,6 +348,15 @@ background-color: var(--background-main-btn);
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
+     border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+ 
+}
+.text-content {
+  margin-left: 24px;
+  margin-right: 24px;
+  
+
 }
 .example .item:nth-child(3n) {
     margin-right: 0;
@@ -333,12 +376,12 @@ margin-bottom: 0px;
 
 .sorting-menu {
    display: flex;
-    
+     justify-content: center;
 }
 
 .sorting-menu .item {
     margin-bottom: 50px;
-    align-items: center;
+   
   
 }
 .sorting-menu .item:not(:last-child) {
@@ -368,7 +411,7 @@ margin-bottom: 0px;
 }
 
 .main-portfolio {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
 }
 
   
